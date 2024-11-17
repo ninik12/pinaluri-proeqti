@@ -1,0 +1,199 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    background-color:aliceblue;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslategrey;
+    margin: auto;
+    height: 15vh;
+    color: white;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top: 20px;
+    color:darkorange;
+    font-size: 2rem;
+    
+}
+
+@media(max-width: 800px){
+    .logo{
+        margin-left: 10%;
+
+        font-size: 1rem;
+    }
+}
+
+ul{
+    display: flex;
+    
+}
+
+.item{
+    margin: 15px 20px;
+    list-style: none;
+    
+}
+a{
+    color: white;
+}
+
+.product-title{
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px
+}
+
+@media(max-width: 800px){
+    .product-title{
+        font-size: 1rem;
+        margin: 10px;
+    }
+}
+
+.main{
+    margin: auto;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+@media(max-width: 800px){
+    .main{
+        margin-left: 50px;
+        
+    }
+}
+#cart-list{
+    background-color:lightcyan;
+    width: 30%;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+
+
+#product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+
+
+
+
+
+img{
+    width: 20vw;
+    height: 40vh;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+
+}
+
+@media(max-width:800px){
+    img{
+        width:17vw;
+        height: 15vh;
+    }
+}
+
+p{
+    color: black;
+    font-size: 20px;
+
+}
+
+button{
+    background-color:lightblue;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 8vw;
+    height: 5vh;
+}
+
+@media(max-width:800px){
+    button{
+        font-size: 10px;
+        height: 3vh;
+        font-size: 7px;
+    }
+}
+
+
+button:hover{
+    background-color: blue;
+
+}
+
+footer{
+    height: 20vh;
+    background-color: darkslategrey;
+    margin: auto;
+    justify-content: center;
+}
+
+.conus{
+    text-align: center;
+
+}
+
+.footer-ul{
+    display: flex;
+    width: 30vw;  
+    justify-content: center;   
+    text-align: center;
+    margin-left: 35%;  
+
+}
+
+.contact-li{
+    list-style: none;
+    margin-top: 5%;
+}
+
+
+#filter-input{
+    width: 30vw;
+    height: 6vh;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+@media(max-width:800px){
+    iframe{
+        width: 70vw;
+        height: 30vh;
+    }
+}
+
+@media(max-width:800px){
+    p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 800px){
+    .title{
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width:800px){
+    h3{
+        font-size: 14px;
+    }
+}
